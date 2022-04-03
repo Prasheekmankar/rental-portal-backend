@@ -10,6 +10,6 @@ app.get("/", (req, res) => {
   res.send("Hello Man how r u");
 });
 
-app.listen(process.env.PORT || 9000, () =>
-  console.log(`Listening on port 9000...`)
+app.listen(process.env.PORT || 8000, () =>
+  console.log(`Listening on port 8000...`)
 );
